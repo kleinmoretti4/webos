@@ -1,0 +1,79 @@
+body{
+  color: black;
+  font-family: "Courier New", monospace;
+  background-size: cover;
+  background-image: url(spider-man-across--11773.jpg);
+}
+
+h1{
+  text-align: center;
+  margin:auto;
+}
+
+q{
+  margin: auto;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p, h2, h3, h4{
+  margin: auto;
+}
+
+img{
+  border-radius: 7px;
+}
+
+div{
+  border:solid;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+}
+
+button{
+  border-radius: 10px;
+  border:none;
+  background-color: rgba(118, 196, 199, 0.3);
+  backdrop-filter:blur(10px);
+}
+
+#topbar{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color:rgba(62, 97, 128, 0.5);
+  border-radius: 10px;
+  padding: 1%;
+  margin: 5px;
+  backdrop-filter:blur(10px);
+  color: #fff;
+}
+
+.window{
+  padding:1%;
+  margin: auto;
+  background-color: rgba(118, 196, 199, 0.5) ;
+  border-radius: 10px;
+  position: absolute;
+  backdrop-filter:blur(10px);
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#apps{
+  padding:1%;
+  margin: auto;
+  position: absolute;
+  cursor: pointer;
+}
+
+#closemusic, #closebook{
+  color: rgb(255, 0, 0);
+  margin:0;
+  display:flex;
+  justify-content: center;
+  cursor:pointer;
+}
+
+#open{
+  cursor:pointer;
+  margin:10px;
+}
