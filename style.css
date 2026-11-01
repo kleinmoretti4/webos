@@ -2,7 +2,7 @@ body{
   color: black;
   font-family: "Courier New", monospace;
   background-size: cover;
-  background-image: url(spider-man-across--11773.jpg);
+  background-image: url("NOAKABES TEXTURE  (14).jpg");
 }
 
 h1{
@@ -45,9 +45,12 @@ button{
   margin: 5px;
   backdrop-filter:blur(10px);
   color: #fff;
+  align-items: center;
+  gap:16px;
 }
 
 .window{
+  display:none;
   padding:1%;
   margin: auto;
   background-color: rgba(118, 196, 199, 0.5) ;
@@ -63,6 +66,7 @@ button{
   margin: auto;
   position: absolute;
   cursor: pointer;
+  border: none;
 }
 
 #closemusic, #closebook{
@@ -76,4 +80,20 @@ button{
 #open{
   cursor:pointer;
   margin:10px;
+}
+
+#music{
+  top:120px;
+  left:100px;
+}
+
+#book{
+  top:160px;
+  left:500px;
+  max-width: 500px;
+  height:auto;
+}
+
+#koreader{
+  border: none;;
 }
