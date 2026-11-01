@@ -10,7 +10,7 @@ setInterval(updateTime, 1000);
 //dragable by using their id's
 dragElement(document.getElementById("music"));
 dragElement(document.getElementById("book"));
-dragElement(document.getElementById("apps"));
+dragElement(document.getElementById("koreader"));
 
 function dragElement(element) {
   var initialX = 0;
