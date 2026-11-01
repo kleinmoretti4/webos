@@ -4,8 +4,8 @@ each blog would be it's own app. In addition to blogs its also going to have med
 disappointed because I could’ve done so much more work on it.
 <img width="1917" height="1071" alt="image" src="https://github.com/user-attachments/assets/e5cc3979-2e87-4968-ab8f-b1a785e56365" />
 
-#Link to try it out
+# Link to try it out
 https://webos-phi-seven.vercel.app/
 
-#Next steps
+# Next steps
 My next step is going to be to optimise it for mobile and categorise the apps into groups like movie reviews, books, e.t.c to make it cleaner and easier to search and sort.
